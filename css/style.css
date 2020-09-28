@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-    background-color: darkmagenta;
+    background-color: #F6B427;
     width: 100%;
     height: 50px;
 }
@@ -52,7 +52,10 @@ button {
     /* height: 100vh; */
     overflow: hidden;
     color: coral;
-    background-color: darkblue;
+    /* background-color: darkblue; */
+    background-color: whitesmoke;
+
+    
 }
 
 .mainbody {
@@ -63,11 +66,13 @@ button {
     overflow: hidden;
 }
 
+
+
 .col1 {
     width: 23%;
     float: left;
     height: 300px;
-    background-color: blue;
+    background-color: #C63272;
 }
 
 .col2 {
@@ -75,14 +80,14 @@ button {
     margin-left: 2%;
     float: left;
     height: auto;
-    background-color: brown;
+    background-color: whitesmoke;
 }
 
 .col3 {
     width: 23%;
     float: right;
     height: 300px;
-    background-color: purple;
+    background-color: #B8E1D9;
 }
 
 
@@ -95,6 +100,6 @@ img {
 }
 
 .sondage1 {
-    background-color: white;
+    background-color: #344155;
     color: blue;
 }
