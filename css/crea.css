@@ -1,0 +1,173 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #e6ecf0;  */
+    background-image: url('../img/orage.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color:#1864ab;
+    width: 100%;
+    height: 50px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+label {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+input {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+input[type=search]:focus {
+    background-color: lightblue;
+  }
+
+button {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    overflow: hidden;
+    color: black;
+    /* background-color: darkblue; */
+    /* background-color: whitesmoke; */
+    background-image: url('../img/orage.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.mainbody {
+
+    width: 1200px;
+    height: auto;
+    margin: 10px auto 10px auto;
+    overflow: hidden;
+}
+
+
+
+.col1 {
+    width: 23%;
+    float: left;
+    height: 300px;
+    background-color:#4dabf7;
+}
+
+.col2 {
+    width: 50%;
+    margin-left: 2%;
+    float: left;
+    height: auto;
+    background-color: #e7f5ff;
+}
+
+.col3 {
+    width: 23%;
+    float: right;
+    height: 300px;
+    background-color:#4dabf7;
+}
+
+
+img {
+    width: 70px;
+    height: 70px;
+
+    margin-top: 15px;
+    margin-left: 35%;
+}
+
+.sondage1 {
+    background-color: #a5d8ff;
+    color: black;
+}
+
+
+a:hover {
+    background-color: #a5d8ff;
+  }
+
+
+form {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+input[type=submit] {
+    color: black;
+
+}
+
+.box {
+    padding: 30px;
+    text-align: center;
+}
+
+.box div {
+    display: inline-block;
+    padding: 0 50px 50px 50px;
+}
+
+
+  
+ 
+  
+
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+  
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+  }
+  
+ 
+  
+  
+  
+
+  
+  
