@@ -122,3 +122,18 @@ img {
 a:hover {
     background-color: #a5d8ff;
   }
+
+  .tt {
+    display: block;
+    color: black;
+    
+    text-decoration: none;
+                        
+                    }
+                    .tt:hover {
+                        background-color: #a5d8ff;
+                    }
+
+.titlecol3 {
+    text-align: center;
+}

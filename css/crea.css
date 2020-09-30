@@ -157,15 +157,9 @@ input[type=text] {
   
 
   input, textarea {
-    /* Pour s'assurer que tous les champs texte ont la même police.
-       Par défaut, les textarea ont une police monospace */
     font: 1em sans-serif;
-  
-    /* Pour que tous les champs texte aient la même dimension */
     width: 300px;
     box-sizing: border-box;
-  
-    /* Pour harmoniser le look & feel des bordures des champs texte */
     border: 1px solid #999;
   }
   
@@ -173,6 +167,19 @@ input[type=text] {
   
   
   
+  .tt {
+    display: block;
+    color: black;
+    
+    text-decoration: none;
+                        
+                    }
+                    .tt:hover {
+                        background-color: #a5d8ff;
+                    }
 
+.titlecol3 {
+    text-align: center;
+}
   
   
