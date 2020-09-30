@@ -136,6 +136,11 @@ input[type=submit] {
 
 }
 
+input[type=text] {
+    color: black;
+
+}
+
 .box {
     padding: 30px;
     text-align: center;
