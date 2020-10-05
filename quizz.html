@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quizz.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div id="overlay" class="overlay">
+        <div id="popup" class="popup">
+            <h2>Identifiez-vous !</h2>
+                <div>
+                    <label class="IdUser">Nom d'utilisateur :</label>
+                    <textarea id="prompt"></textarea>
+                    <button id="btnClose" class="btnClose">Send</button>
+                </div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        
+        <div class="navbar">
+ 
+             <a href="">Accueil</a>
+             <a href="rank.html">Classement</a>
+             <a href="#">Votre compte</a>
+             <a href="crea_sondage.html">Créez votre sondage !</a>
+             <a href="quizz.html">Quizz js</a>
+             <label class="searchSondage" for="sondage-search">Cherchez un sondage :</label>
+             <input type="search" id="site-search" name="q" aria-label="Search through site content">
+             <button>Search</button>
+ 
+        </div>
+ 
+        <div class="mainbody" id="mainbody">
+            <div class="col1">
+                
+                 <img src="img/pp.jpg">
+ 
+                 <p>Nom d'utilisateur : <p id="Ecran"></p> </p>
+                 <p>Nombre de participations à un sondage : </p>
+                 <p>Rank : </p>
+ 
+            </div>
+            <div class="col2">
+                <div class="sondage1">
+                    <h2>Question</h2>
+                    <input type="checkbox">
+                    <p>Reponse 1</p>
+                    <input type="checkbox">
+                    <p>Reponse 1</p>
+                    <input type="checkbox">
+                    <p>Reponse 1</p>
+                    <input type="checkbox">
+                    <p>Reponse 1</p>
+                </div>
+            </div>
+ 
+            <div class="col3">
+             <div>
+                 <h2 class="titlecol3">Sondage stars</h2>
+                 <hr>
+                 <a class="tt" href="#"><p>Question 1</p></a>
+                 <hr>
+                 <a class="tt" href="#"><p>Question 2</p></a>
+                 <hr>
+                 <a class="tt" href="#"><p>Question 3</p></a>
+                 <hr>
+                 <a class="tt" href="#"><p>Question 4</p></a>
+                 <hr>
+             </div>
+            </div>
+        </div>
+    </div>
+
+
+        <script src="js/popup.js"></script>
+</body>
+</html>
