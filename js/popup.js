@@ -24,7 +24,7 @@ function closeModal() {
     console.log(t);
     overlay.style.display='none';
     console.log("test:" + t);
-    document.getElementById("Ecran").innerHTML= t; 
+    document.getElementById("userName").innerHTML= "Nom d'utilisateur : " + t; 
 }
 
   window.onload = openMoadl;
