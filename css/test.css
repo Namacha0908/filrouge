@@ -6,7 +6,7 @@
     font-family: Arial, sans-serif;
     font-size: 20px;
     color: #2e2e2e;
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
   }
   
   h2.quizHeader {
@@ -75,9 +75,14 @@
     border-radius: 5px;
     padding: 10px;
     padding-left: 25px;
+    
     box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px;
   } 
   
+  ul {
+    display: flex; 
+    flex-direction: row;
+  }
 
  .submitter {
     width: 85px;
@@ -93,6 +98,12 @@
 
 
 /* test bb */
+
+
+.result {
+
+  /* position: absolute; */
+}
 
 
 
@@ -182,7 +193,10 @@ button {
     overflow: hidden;
 }
 
-
+.centre {
+  
+  color: #680f11;
+}
 
 .col1 {
     width: 23%;

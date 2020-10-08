@@ -21,7 +21,7 @@ function submitQuiz() {
     }
 
 // calc score with answerScore function
-    var calcScore = (answerScore('q1') + answerScore('q2') + answerScore('q3') + answerScore('q4'));
+    var calcScore = (answerScore('q1') + answerScore('q2') + answerScore('q3') + answerScore('q4') + answerScore('q5'));
     console.log("CalcScore: " + calcScore); // it works!
 
 // function to return correct answer string
@@ -43,6 +43,9 @@ function submitQuiz() {
     }
     if (answerScore('q4') === 0) {
         document.getElementById('correctAnswer4').innerHTML = correctAnswer('correctString4', 4);
+    }
+    if (answerScore('q5') === 0) {
+        document.getElementById('correctAnswer5').innerHTML = correctAnswer('correctString5', 5);
     }
 
 // calculate "possible score" integer
